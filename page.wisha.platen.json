@@ -32,8 +32,8 @@
 				{
 					"type": "git",
 					"url": "https://tangled.org/wisha.page/platen",
-					"tag": "v0.0.1-release-5",
-					"commit": "3c3c5f9deedc42536a656870a047f9b86ce0b7b2"
+					"tag": "v0.1.0-release-1",
+					"commit": "42764e8804b7e87f8431f31ac641973b46626de0"
 				},
 				"cargo-sources.json",
 				{
