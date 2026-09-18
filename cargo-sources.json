@@ -2788,24 +2788,6 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/mitex-51f7210/crates/mitex\" \"cargo/vendor/mitex\""
-        ]
-    },
-    {
-        "type": "inline",
-        "contents": "[package]\nname = \"mitex\"\ndescription = \"MiTeX is a TeX2Typst converter.\"\nauthors = [\"Myriad-Dreamin <camiyoru@gmail.com>\", \"OrangeX4 <orangex4@qq.com>\", \"mgt <mgt@oi-wiki.org>\"]\nversion = \"0.2.7\"\nlicense = \"Apache-2.0\"\nedition = \"2021\"\nhomepage = \"https://github.com/mitex-rs/mitex\"\nrepository = \"https://github.com/mitex-rs/mitex\"\n\n[[bench]]\nname = \"convert_large_projects\"\nharness = false\n\n[dependencies]\nrowan = \"0.15.15\"\n\n[dependencies.mitex-parser]\nversion = \"0.2.7\"\npath = \"crates/mitex-parser\"\n\n[dependencies.mitex-spec-gen]\nversion = \"0.2.7\"\npath = \"crates/mitex-spec-gen\"\n\n[dev-dependencies]\ninsta = \"1.39\"\ndivan = \"0.1.14\"\nserde = \"1.0.188\"\nserde_json = \"1.0.106\"\n",
-        "dest": "cargo/vendor/mitex",
-        "dest-filename": "Cargo.toml"
-    },
-    {
-        "type": "inline",
-        "contents": "{\"package\": null, \"files\": {}}",
-        "dest": "cargo/vendor/mitex",
-        "dest-filename": ".cargo-checksum.json"
-    },
-    {
-        "type": "shell",
-        "commands": [
             "cp -r --reflink=auto \"flatpak-cargo/git/mitex-51f7210/crates/mitex-glob\" \"cargo/vendor/mitex-glob\""
         ]
     },
